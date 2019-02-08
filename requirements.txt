@@ -3,4 +3,4 @@ asyncio
 youtube-dl
 PyNaCl
 requests
-request
+
