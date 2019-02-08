@@ -12,7 +12,7 @@ import os
 import json
 import traceback
 import random
-import request
+
 import youtube_dl
 from discord.utils import find
 import requests as rq
