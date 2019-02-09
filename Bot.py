@@ -22,7 +22,7 @@ def get_prefix(bot, msg):
     return commands.when_mentioned_or(*prefixes)(bot, msg)
 
 
-bot = commands.Bot(command_prefix=get_prefix,description='A music bot fro discord Kurusaki')
+bot = commands.Bot(command_prefix='op!')
 bot.remove_command('help')
 
 # extensions=['server_songs']
